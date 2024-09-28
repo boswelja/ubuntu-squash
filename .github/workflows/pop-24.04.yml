@@ -1,9 +1,9 @@
-name: pop-22.04
+name: pop-24.04
 
 on:
   push:
     branches:
-      - pop-22.04
+      - pop-24.04
     paths-ignore:
       - '.github/workflows/**'
   schedule:
@@ -11,8 +11,8 @@ on:
   workflow_dispatch:
 
 env:
-  BRANCH: pop-22.04
-  GITHUB_ENDPOINT: netbootxyz/ubuntu-squash
+  BRANCH: pop-24.04
+  GITHUB_ENDPOINT: boswelja/ubuntu-squash
   DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
   BUILD_TYPE: initrd_patch
   DEBIAN_FRONTEND: noninteractive
@@ -25,7 +25,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        ref: pop-22.04
+        ref: pop-24.04
 
     - name: Get SHA of actual branch instead of master
       run: |
