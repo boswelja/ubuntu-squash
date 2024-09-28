@@ -1,9 +1,9 @@
-URL="https://iso.pop-os.org/22.04/amd64/intel/21/pop-os_22.04_amd64_intel_21.iso"
+URL="https://iso.pop-os.org/24.04/amd64/nvidia/10/pop-os_24.04_amd64_nvidia_10.iso"
 TYPE=file
 CONTENTS="\
-casper_pop-os_22.04_*/filesystem.squashfs|filesystem.squashfs
-casper_pop-os_22.04_*/initrd.gz|initrd
-casper_pop-os_22.04_*/vmlinuz.efi|vmlinuz"
+casper_pop-os_24.04_*/filesystem.squashfs|filesystem.squashfs
+casper_pop-os_24.04_*/initrd.gz|initrd
+casper_pop-os_24.04_*/vmlinuz.efi|vmlinuz"
 EXTRACT_INITRD="true"
 INITRD_NAME="initrd"
 INITRD_TYPE="zstd"
