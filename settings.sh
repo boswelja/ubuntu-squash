@@ -1,4 +1,4 @@
-URL="https://iso.pop-os.org/24.04/amd64/nvidia/10/pop-os_24.04_amd64_nvidia_10.iso"
+URL="https://iso.pop-os.org/24.04/amd64/intel/10/pop-os_24.04_amd64_intel_10.iso"
 TYPE=file
 CONTENTS="\
 casper_pop-os_24.04_*/filesystem.squashfs|filesystem.squashfs
