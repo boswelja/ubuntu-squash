@@ -1,11 +1,11 @@
 endpoints:
-  pop-22.04-default-squash:
+  pop-24.04-nvidia-squash:
     path: /ubuntu-squash/releases/download/REPLACE_RELEASE_NAME/
     files:
     - filesystem.squashfs
     - initrd
     - vmlinuz
     os: "pop"
-    version: "22.04"
-    flavor: "intel-amd"
-    kernel: "pop-22.04-default-squash"
+    version: "24.04"
+    flavor: "nvidia"
+    kernel: "pop-24.04-nvidia-squash"
